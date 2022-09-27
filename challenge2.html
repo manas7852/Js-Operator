@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Operator</title>
+</head>
+<body>
+    <h1>Arithhmatic Operator</h1>
+    <h1>Number Of Weeks In a Year</h1>
+    <p id="result"></p>
+    <script>
+        let days = 365;
+        let week_days = 7;
+        let remaining_days = days % week_days;
+        let Weeks =Math.round(days / week_days) ;
+        document.getElementById("result").innerHTML = `${Weeks} weeks and ${remaining_days} day is there in a year`
+    </script>
+</body>
+</html>
